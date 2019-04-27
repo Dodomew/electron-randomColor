@@ -1,0 +1,42 @@
+.env
+/modules
+/packages
+/node_modules
+/public/modules
+/public/build
+/public/css
+/public/js
+/public/images/icon-sprite-*.svg
+/public/vendor
+/resources/assets/sass/settings/_settings.icon.scss
+/resources/assets/sass/settings/_icon.scss
+/tests/report
+/vendor
+
+# Environment files
+*.DS_Store
+*.orig
+*.log
+.idea
+.vscode
+.phpunit.result.cache
+
+# video files
+*.[Aa][Vv][Ii]
+*.[Ff][Ll][Vv]
+*.[Mm][Oo][Vv]
+*.[Mm][Pp]4
+*.[Mm][Pp][Ee][Gg]
+*.[Mm][Pp][Gg]
+*.[Oo][Gg][Vv]
+*.[Ww][Ee][Bb][Mm]
+*.[Ww][Mm][Vv]
+
+# audio files
+*.[Mm][Pp]3
+*.[Oo][Gg][Gg]
+*.[Ww][Aa][Vv]
+*.[Ww][Mm][Aa]
+
+# Miscellaneous files
+*.[Pp][Ss][Dd]

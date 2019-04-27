@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Random Color</title>
+        <link href="dist/css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main js-main">
+            <div class="content">
+                <h1 class="content__title js-content-title">Electron: Random Color Changer</h1>
+                <a class="button js-button" href="#">Change color</a>
+            </div>
+        </div>
+
+        <script>require('electron-connect').client.create()</script> <!-- Otherwise gulp reload does not work -->
+        <script src="dist/js/changeBG.js"></script>
+    </body>
+</html>

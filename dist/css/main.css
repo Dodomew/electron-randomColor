@@ -1,0 +1,39 @@
+body {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  height: 100%;
+  font-size: 20px; }
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s linear; }
+
+.content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap; }
+  .content__title {
+    font-family: 'Helvetica', 'Verdana', 'Arial', sans-serif;
+    font-size: 24px;
+    margin-bottom: 30px;
+    transition: background-color 0.2s linear; }
+
+.button {
+  font-family: 'Helvetica', 'Verdana', 'Arial', sans-serif;
+  font-size: 20px;
+  padding: 20px 44px;
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.2s linear, color 0.2s linear;
+  border-radius: 4px; }
